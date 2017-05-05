@@ -16,7 +16,7 @@ So in order to get real time feedback, POLARIS has created it's own weather stat
 <li>Thermistor</li>
 <li>Panel phovoltatic</li>
 <li>LCD panel</li>
-<ul>
+</ul>
 <b>Software and languages of programing:</b>
 
 <ul>
