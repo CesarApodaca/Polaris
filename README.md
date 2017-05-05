@@ -16,7 +16,8 @@ Photoresistor
 Thermistor
 Panel phovoltatic
 LCD panel
-<b> Software and languages of programing:</b>
+
+<b>Software and languages of programing:</b>
 
 Matlab
 Java
