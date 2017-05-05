@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In!</title>
+
+	<!-- METADATOS -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<meta name="description" content="Descripcion del sitio men">
+	<meta name="author" content="Equipazo">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="fondoSunshine">
+	<div class="navbar-fixed">
+	    <nav style="background-color: #4ab7d0; height: 80px; line-height: 80px;">
+	      	<div class="nav-wrapper">
+		        <div class="container">
+		        	<a href="#!" class="brand-logo"><img src="img/polaris.png" style="width:200px;"></a>
+			        <ul class="right hide-on-med-and-down">
+			          <li><a href="easy.html">Easy</a></li>
+			          <li><a href="medium.html">Medium</a></li>
+			          <li><a href="panel.html">Expert</a></li>
+			          <li><a href="login.html">About Us</a></li>
+			          <li><a href="login.html">Log in</a></li>
+			        </ul>
+		      </div>
+		    </div>
+	    </nav>
+	 </div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="contenedor" style="width: 40%; align-items: center; margin: 0px auto;">
+					<div class="superior">
+						
+					</div>
+					<div class="inferior">
+						<form role="form" action="test.php" method="post" class="login-form" id="frmLogin">
+	                      	<div class="row">
+		                      	<div class="input-field col s12">
+							        <input id="txtUsuario" type="text" name="txtUsuario" class="validate" required="" aria-required="true">
+							        <label for="txtUsuario">Usuario</label>
+							   </div>
+							   <div class="input-field col s12">
+							        <input id="password" type="password" name="password" class="validate" required="" aria-required="true">
+							        <label for="password">Clave</label>
+							   </div>
+	                       </div>
+	                       <div class="row" style="margin-left: 10px;margin-right: 10px;">
+				              	<div class="input-field col s12">
+				                	<button class="btn waves-effect waves-light" type="submit" name="action" style="margin-bottom: 10px; background-color: #4eaf5e; width: 100%;">Ingresar</button>
+				            	</div>
+		              		</div>
+	                   </form> 
+	                   <a href="">¿No tienes cuenta? Crea una</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!-- JS -->
+	<script src="ex/js/jquery.min.js"></script>	
+	<script src="js/materialize.min.js"></script>	
+</body>
+</html>

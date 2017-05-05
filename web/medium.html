@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medium!</title>
+
+	<!-- METADATOS -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<meta name="description" content="Descripcion del sitio men">
+	<meta name="author" content="Equipazo">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<script type="text/javascript">
+		var tiempo = 0
+function asignartiempo(valor){
+tiempo = parseInt(valor)
+}
+
+function calcula(){
+var energia = document.getElementById("energia").value;
+var potencia = document.getElementById("potencia").value;
+var irradiancia = document.getElementById("irradiancia").value;
+var energia_req = energia*1000;
+var HSP = irradiancia/365;
+var pot_req = energia_req/HSP;
+var numero = pot_req/(potencia*0.85);
+document.getElementById("numero").value = Math.ceil(numero);
+document.getElementById("numero").value = Math.ceil(numero);
+}
+
+function e_prom() {
+   var x = document.createElement("Como calcular la energía promedio");
+var mes1 = parseInt(document.getElementById("mes1").value);
+var mes2 = parseInt(document.getElementById("mes2").value);
+var mes3 = parseInt(document.getElementById("mes3").value);
+var mes4 = parseInt(document.getElementById("mes4").value);
+var mes5 = parseInt(document.getElementById("mes5").value);
+var mes6 = parseInt(document.getElementById("mes6").value);
+var promedio = (mes1 + mes2 + mes3 + mes4 + mes5 + mes6)/tiempo;
+promedio.toPrecision(2);
+document.getElementById("resultado").value = promedio;
+    x.appendChild(t);
+    document.body.appendChild(x);
+}
+
+function myFunction() {
+    var x = document.createElement("Detalles");
+    var t = document.createTextNode("No sé que decirle a nuestro usuario autista para que sepa que datos meter...");
+    x.appendChild(t);
+    document.body.appendChild(x);
+}
+	</script>
+</head>
+<body class="fondoSunshine fondoLogin">
+	<div class="navbar-fixed">
+	    <nav style="background-color: #4ab7d0; height: 80px; line-height: 80px;">
+	      	<div class="nav-wrapper">
+		        <div class="container">
+		        	<a href="#!" class="brand-logo"><img src="img/polaris.png" style="width:200px;"></a>
+			        <ul class="right hide-on-med-and-down">
+			          <li><a href="medium.html">Medium</a></li>
+			          <li><a href="panel.html">Expert</a></li>
+			          <li><a href="panel.html">About Us</a></li>
+			          <li><a href="login.html">Log in</a></li>
+			        </ul>
+		      </div>
+		    </div>
+	    </nav>
+	 </div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="contenedor" style="width: 90%; align-items: center; margin: 0px auto; background-color: white;">
+					<div class="superior">
+						
+					</div>
+					<div class="inferior">
+						<form role="form" action=""  class="login-form" id="frmLogin">
+	                      	<div class="row">
+	                      		<h3 class="light" style="text-align: center; margin-bottom: 0px;">Caluladora</h3>
+		                      	<div class="input-field col s4">
+							        <input id="energia" type="text" name="energia" class="validate" required="" aria-required="true">
+							        <label for="energia">Energía promedio (Kwh/día)</label>
+							   </div>
+							   <div class="input-field col s4">
+							        <input id="potencia" type="text" name="potencia" class="validate" required="" aria-required="true">
+							        <label for="potencia">Potencia del panel(watts)</label>
+							   </div>
+							    <div class="input-field col s4">
+							        <input id="irradiancia" type="text" name="irradiancia" class="validate" required="" aria-required="true">
+							        <label for="irradiancia">Irradiancia</label>
+							   </div>
+							</div>
+							<div class="row">
+								<div class="input-field col s6">
+								   	<div align="" style="margin-top: 10px;">
+									   	<a class="btn waves-effect waves-light" onclick="calcula()" style="margin-bottom: 10px; background-color: #4eaf5e; width: 80%; text-align: center;" >Calcular</a>
+									</div>
+							   </div>
+							   <div class="input-field col s6">
+								   	<div align="" style="margin-top: 10px;">
+									   	<input id="numero" type="text" name="numero"  value="0" required="" aria-required="true">
+							        	<label for="numero" class="active" >Resultado(watts)</label>
+									</div>
+							   </div>
+							</div>
+							 
+	                       
+	                       <div class="row" style="margin-right: 5px;">
+				              	<div class="input-field col s12">
+				                	<img src="img/mapa.jpg">
+				            	</div>
+		              		</div>
+	                   </form> 
+	                   <a href="">¿Necesitas ayuda?</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!-- JS -->
+	<script src="ex/jquery/jquery.min.js"></script>	
+	<script src="js/materialize.min.js"></script>
+</body>
+</html>

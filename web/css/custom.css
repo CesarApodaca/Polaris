@@ -1,0 +1,26 @@
+#logo-container {
+    height: 57px;
+    margin-bottom: 32px;
+}
+
+ul.side-nav.fixed li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+.fondoSunshine
+{
+	background:url(../img/fondoPrincipal.png) ;
+    height: 1600px;
+}
+
+
+.inferior
+{
+	margin-top: 100px;
+	background: rgba(255,255,255,0.9);
+	padding: 25px 25px 10px 25px;
+}
+
+
