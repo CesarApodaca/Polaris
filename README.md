@@ -4,9 +4,9 @@ POLARIS has created this web page with a friendly design for everybody, from kid
 
 So in order to get real time feedback, POLARIS has created it's own weather station. It is planned to be accessible for everybody, but mainly for remote locations where solar energy is the main source of electricity. Those places are not only for Earth’s surface as POLARIS’s station also works on further sites like Mars or even farther, and everything you need is a solar source to produce electricity (again, we will take this point further in a moment). Many may ask, how does this works? And the answer is real simple. The station is made up with an Arduino and a diverse number of sensors that works even in the most Inhospitable places, they are able to read weather’s information in real time for various parameters such as humidity, irradiance, wind’s velocity, temperature, pressure and luminosity, but it can also be upgraded for even more sensors to capture more factors that affect the panels and that way, get a better efficiency. It also counts with a Wi-fi module that connects the Arduino with the web page and saves all the information in the database that POLARIS has created for users. Now let’s get to the Hi-Seas project. This venture is situated in Hawaii and simulates the exploration of Mars in the Earth. In order to get through this, the Hi-Seas project has created a dome that is planned to use in the inhospite planet. So POLARIS has also created a model of panels that can be used by NASA, of course taking the minimum level of energy needed to supply the most basic instruments that uses electricity inside the dome. This takes from laboratories to house appliances. It can also be used for the total amount of energy the NASA asks for, that is 150,000kW a year or for any other quantity. Of course, POLARIS also takes in consideration the differences of parameters from any other surfaces outside the Earth, and here is where the weather station from POLARIS gets as a main resource of information for the proper efficiency of the system. So this means POLARIS is not limited for Earth’s use and it gives future to the project.
 
-RESOURCES
+# RESOURCES
 
-# Hardware:
+<b>Hardware:</b>
 
 Arduino Mega
 Wifi module
@@ -16,7 +16,7 @@ Photoresistor
 Thermistor
 Panel phovoltatic
 LCD panel
-# Software and languages of programing:
+<b> Software and languages of programing:</b>
 
 Matlab
 Java
@@ -28,7 +28,7 @@ Origin
 Illustrator CC 2017
 After Effects CC 2017
 ProTools
-# Websites and bibliography:
+<b> Websites and bibliography:</b>
 
 https://datos.gob.mx/busca/dataset/parametros-meteorologicos
 http://pvwatts.nrel.gov/
