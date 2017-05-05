@@ -7,28 +7,30 @@ So in order to get real time feedback, POLARIS has created it's own weather stat
 # RESOURCES
 
 <b>Hardware:</b>
-
-Arduino Mega
-Wifi module
-Barometric sensor
-Temperature and humidity sensor
-Photoresistor
-Thermistor
-Panel phovoltatic
-LCD panel
-
+<ul>
+<li>Arduino Mega</li>
+<li>Wifi module</li>
+<li>Barometric sensor</li>
+<li>Temperature and humidity sensor</li>
+<li>Photoresistor</li>
+<li>Thermistor</li>
+<li>Panel phovoltatic</li>
+<li>LCD panel</li>
+<ul>
 <b>Software and languages of programing:</b>
 
-Matlab
-Java
-JavaScript
-Python
-Arduino IDE (C++)
-GNUPLOT
-Origin
-Illustrator CC 2017
-After Effects CC 2017
-ProTools
+<ul>
+<li>Matlab</li>
+<li>Java</li>
+<li>JavaScript</li>
+<li>Python</li>
+<li>Arduino IDE (C++)</li>
+<li>GNUPLOT</li>
+<li>Origin</li>
+<li>Illustrator CC 2017</li>
+<li>After Effects CC 2017</li>
+<li>ProTools</li>
+</ul>
 <b> Websites and bibliography:</b>
 
 https://datos.gob.mx/busca/dataset/parametros-meteorologicos
